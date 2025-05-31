@@ -2,7 +2,6 @@
 
 模板网站
 - https://html5up.net/
-- https://colorlib.com/
 - https://startbootstrap.com/
 - https://templatemo.com/
 - https://htmlrev.com/
