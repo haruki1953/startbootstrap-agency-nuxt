@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // 开发时暂时设置为false，以提高运行速度
+  // ssr: false,
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: [

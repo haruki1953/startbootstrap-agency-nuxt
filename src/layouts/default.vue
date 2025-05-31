@@ -1,8 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>src\layouts\default.vue</div>
+  <NavNavigation></NavNavigation>
   <slot></slot>
+  <FooterFooter></FooterFooter>
 </template>
 
 <style lang="scss" scoped></style>

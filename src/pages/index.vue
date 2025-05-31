@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  title: 'Agency',
+  meta: [{ name: 'description', content: 'Nuxt' }]
+})
+</script>
 
 <template>
-  <div>src\pages\index.vue</div>
+  <HeaderMasthead></HeaderMasthead>
+  <SectionServices></SectionServices>
+  <SectionPortfolioGrid></SectionPortfolioGrid>
+  <SectionAbout></SectionAbout>
+  <SectionTeam></SectionTeam>
+  <SectionClients></SectionClients>
+  <SectionContact></SectionContact>
 </template>
 
 <style lang="scss" scoped></style>
